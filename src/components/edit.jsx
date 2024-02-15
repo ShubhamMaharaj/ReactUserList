@@ -35,7 +35,7 @@ function Edit() {
         
         
        
-      }, []);
+      }, [Newdata,location]);
       const updateData = async (Datakey, Newdata) => {
         try {
             setLoading(true);
